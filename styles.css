@@ -11,6 +11,19 @@ nav {
     filter: drop-shadow(2px 4px 6px #00000036)
 }
 
+.gif {
+    height: 200px;
+    width: 200px;
+
+    background-image: url("assets/christmasgif.gif");
+    background-size: contain;
+
+    position: fixed;
+
+    bottom: 1em;
+    right: 1em;
+}
+
 .section {
     text-align: center;
 }
@@ -38,6 +51,32 @@ nav {
 .btn-orange {
     background-color: #FFBE3C;
     color: #0A459E;
+
+    border: 0;
+
+    padding: 12px 36px;
+}
+
+.btn-orange:hover {
+    background-color: #2979EC;
+    color: white;
+
+    filter: drop-shadow(2px 4px 6px #00000036);
+}
+
+.btn-blue {
+    background-color: #2979EC;
+    color: white;
+    border: 0;
+
+    padding: 12px 36px;
+}
+
+.btn-blue:hover {
+    background-color: #FFBE3C;
+    color: #0A459E;
+
+    filter: drop-shadow(2px 4px 6px #00000036);
 }
 
 .logo {
