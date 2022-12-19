@@ -14,7 +14,7 @@
 <nav class="d-flex justify-content-between">
     <img src="assets/logo-blue-160x160-1.png" alt="" class="logo">
     <div class="align-self-center mx-5">
-        <button class="btn btn-primary btn-text">Contact us</button>
+        <a href="https://ebq.com/contact-us/" target="_blank"><button class="btn btn-primary btn-text contact-btn">Contact us</button></a>
     </div>
 </nav>
 <div class="container-fluid">
@@ -25,29 +25,35 @@
         </div>
     </div>
     <div class="row white-bg row-margin padding-y">
-        <img src="assets/Marketing_Tools.svg" alt="" class="col-12 col-md-6 my-5 order-md-2">
-        <div class="col-12 col-md-6 section order-md-1">
+        <img src="assets/Marketing_Tools.svg" alt="" class="col-12 col-md-6 my-5 order-md-2 ps-md-5">
+        <div class="col-12 col-md-6 section order-md-1 pe-md-5">
             <p class="header">We're experts with <b>modern marketing tools,</b> so you don't have to be!</p>
             <p>With hands-on experience in B2B's most innovative apps and tools, we take a data-driven approach to continually improve prospect engagement. Whether we work directly out of your platform ori provide out own insights manually, you always get full visibility into the process</p>
         </div>
     </div>
-    <div class="row white-bg row-margin">
-        <div class="col-12 col-md-6 section order-md-2 third-section">
+    <div class="row white-bg row-margin mb-5">
+        <div class="col-12 col-md-6 section order-md-2 third-section ps-md-5">
             <p class="header"><b>The best way</b> to build a marketing team</p>
             <p>With EBQ, you're not just hiring a marketing specialist. You're getting an entire marketing department at a fraction of the cost and effort of hiring internally.</p>
             <p>For each project, we provide: a Success Manager to drive high-level strategy, a Project Manager to oversee day-to-day operations, and one or more Specialists working diligently to amplify your brand.</p>
         </div>
-        <img src="assets/Complete-Department-Marketing.png" alt="" class="col-12 col-md-6 my-5 order-md-1" id="dept-image">
+        <img src="assets/Complete-Department-Marketing.png" alt="" class="col-12 col-md-6 my-5 order-md-1 pe-md-5" id="dept-image">
     </div>
 </div>
 <footer class="footer">
     <p class="header">Looking to take your <b>marketing to the next level?</b></p>
-    <button class="btn btn-orange btn-text my-5">Contact us</button>
+    <a href="https://ebq.com/contact-us/" target="_blank"><button class="btn btn-orange btn-text contact-btn mt-5">Contact us</button></a>
 </footer>
 
 
 <script type="text/javascript">
     // Event listener JS goes here
+    const contactBtn = document.querySelectorAll('.contact-btn');
+    contactBtn.forEach(btn => {
+        btn.addEventListener('click', function (){
+            console.log('clicked')
+        })
+    })
 </script>
 </body>
 </html>

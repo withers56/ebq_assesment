@@ -23,6 +23,12 @@ nav {
     text-align: center;
 }
 
+.contact-btn {
+    border-radius: 30px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .logo {
     margin: 0 0em;
     height: 106px;
@@ -61,7 +67,8 @@ nav {
     color: white;
     background-color: #0A459E;
 
-    padding: 6em 0;
+    padding-top: 7em;
+    padding-bottom: 7em;
  }
 
  .padding-y {
