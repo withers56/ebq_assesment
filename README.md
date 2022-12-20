@@ -2,4 +2,4 @@
 
 William Withers EBQ Assessment
 
-Typing christmas will reveal hidden easter egg! (my event listner)
+Typing christmas will reveal hidden easter egg! (my event listener)
